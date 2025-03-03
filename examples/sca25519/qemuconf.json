@@ -1,0 +1,7 @@
+{
+	"qemu" : "/home/michal/Documents/muni/Mgr/diplomka/code/archie/qemu/build/debug/arm-softmmu/qemu-system-arm",
+	"kernel" : "/home/michal/Documents/muni/Mgr/diplomka/code/archie/examples/sca25519/main.elf",
+	"plugin" : "/home/michal/Documents/muni/Mgr/diplomka/code/archie/faultplugin/libfaultplugin.so",
+	"machine" : "stm32vldiscovery",
+    "cpu" : "cortex-m4"
+}

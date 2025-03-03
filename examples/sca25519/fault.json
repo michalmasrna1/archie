@@ -1,0 +1,24 @@
+{
+	"max_instruction_count": 1000000,
+    "start" : {
+		"address" : 0x000001ad,
+		"counter" : 1
+	},
+	"faults" :[
+        [
+            {
+                "fault_address"		: [0x8000c1c],
+                "fault_type"		: "instruction",
+                "fault_model"		: "overwrite",
+                "num_bytes" 		: 2,
+                "fault_lifespan"	: [100],
+                "fault_mask"		: [0xbf00],
+                "trigger_address"	: [0x8000bf8],
+                "trigger_counter"	: [1]
+            }
+        ]
+		],
+	"memorydump": [
+		],
+	"mem_info": true
+}
